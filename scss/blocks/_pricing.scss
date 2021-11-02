@@ -66,6 +66,7 @@
     }
 
 
+
     &__updates-product {
         font-weight: 600;
         font-size: 14px;
@@ -91,11 +92,22 @@
             background-image: url("../../img/check.svg");
         }
     }
+
+    &__updates-product--disabled::before{
+        background-image: url("../../img/check-disabled.svg")
+    }
 }
 
 
 @media screen and (max-width:400px){
     .pricing__btn{
         padding: 10px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .pricing{
+        padding-left: 12px;
+        padding-right: 12px;
     }
 }

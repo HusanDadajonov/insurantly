@@ -58,3 +58,10 @@
         border-radius: 37px;
     }
 }
+
+@media screen and (max-width:768px){
+    .cards{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}

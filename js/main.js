@@ -23,9 +23,11 @@
   
 let elBurgerBtn = document.querySelector(".header__burger");
 let elNav = document.querySelector(".nav");
+let elContents = document.querySelector(".contents");
 
 elBurgerBtn.addEventListener("click",function () {
     elNav.classList.toggle("open-nav");
-    document.querySelector("body").classList.toggle("hidden-scroll")
+    document.querySelector("body").classList.toggle("hidden-scroll");
+    elContents.classList.toggle("contents-p")
   }
 )

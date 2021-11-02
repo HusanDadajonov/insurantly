@@ -574,6 +574,8 @@ img {
 
 .contents {
   padding: 112px 0;
+  -webkit-transition: padding 0.4s ease;
+  transition: padding 0.4s ease;
 }
 
 .contents__title {
@@ -621,6 +623,10 @@ img {
   .contents__btn:nth-child(2):hover {
     color: #fff !important;
   }
+}
+
+.contents-p {
+  padding-top: 484px;
 }
 
 @media screen and (max-width: 576px) {
@@ -781,6 +787,13 @@ img {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .industry {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
 .user__title {
   font-size: 24px;
   line-height: 32px;
@@ -874,6 +887,13 @@ img {
   max-width: 168px;
   background: #23a6f0;
   border-radius: 37px;
+}
+
+@media screen and (max-width: 768px) {
+  .cards {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 
 .pricing {
@@ -977,9 +997,20 @@ img {
   background-image: url("../../img/check.svg");
 }
 
+.pricing__updates-product--disabled::before {
+  background-image: url("../../img/check-disabled.svg");
+}
+
 @media screen and (max-width: 400px) {
   .pricing__btn {
     padding: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pricing {
+    padding-left: 12px;
+    padding-right: 12px;
   }
 }
 
@@ -1098,6 +1129,14 @@ img {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .contact {
+    padding-left: 30px;
+    padding-right: 30px;
+    background-position: center center;
+  }
+}
+
 .footer {
   padding: 50px 0;
   background: #252b42;
@@ -1190,17 +1229,18 @@ img {
 }
 
 @media screen and (max-width: 768px) {
-  .footer__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+  .footer__link--tel::before {
+    background-image: url("../../img/tell-blue.svg");
+  }
+  .footer__link--addres::before {
+    background-image: url("../../img/gps-blue.svg");
+  }
+  .footer__link--email::before {
+    background-image: url("../../img/email-blue.svg");
+  }
+  .footer {
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 
@@ -1232,5 +1272,12 @@ img {
 
 .busines__btn:hover {
   color: #23a6f0 !important;
+}
+
+@media screen and (max-width: 768px) {
+  .busines {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
