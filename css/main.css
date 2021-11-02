@@ -1030,9 +1030,9 @@ img {
   color: #737373;
 }
 
-.contact__inp, .contact__select, .contact__textarea {
+.contact__inp, .contact__textarea, .contact__select {
   padding: 11px 21px;
-  background: #f9f9f9;
+  background-color: #f9f9f9;
   border: 1px solid #e6e6e6;
   border-radius: 5px;
   margin-bottom: 20px;
