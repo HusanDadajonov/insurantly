@@ -964,6 +964,12 @@ img {
   background-image: url("../../img/check.svg");
 }
 
+@media screen and (max-width: 400px) {
+  .pricing__btn {
+    padding: 10px;
+  }
+}
+
 .contact {
   padding: 90px 0;
   background-image: url("../../img/contact-bg.jpg");
