@@ -1,0 +1,100 @@
+.footer {
+    padding: 50px 0;
+    background: #252b42;
+
+    &__item {
+        margin-bottom: 10px;
+    }
+
+    &__title {
+        margin-bottom: 20px;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+    }
+
+    &__link {
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+        transition: color 0.4s ease;
+
+        &:hover{
+            color: #3ea8ff !important;
+        }
+    }
+
+    &__link--tel,
+    &__link--addres,
+    &__link--email{
+        padding-left: 34px;
+
+        &::before{
+            content: "";
+            width: 24px;
+            height: 24px;
+            position:absolute;
+            left: 0;
+            top: 50%;
+            transform: translate(0,-50%);
+            background-repeat: no-repeat ;
+            background-size: 24px 24px ;
+        }
+    }
+
+    &__link--tel::before{
+        background-image: url("../../img/tell-icon.svg");
+    }
+
+    &__link--addres::before{
+        background-image: url("../../img/gps.svg");
+    }
+
+    &__link--email::before{
+        background-image: url("../../img/email.svg");
+    }
+
+	&__bottom {
+        background: #fafafa;
+        padding: 25px 0;
+	}
+
+	&__desc {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.2px
+	}
+
+	&__icons-list {
+	}
+
+	&__icons-item:not(:last-child){
+        margin-right: 20px;
+	}
+
+	&__icons-link {
+        color: $btn-bg;
+        font-size: 25px;
+	}
+}
+
+@media screen and (max-width:1200px){
+    .footer__list{
+        margin-bottom: 30px;
+    }
+
+    .footer__row{
+        justify-content: stretch !important;
+    }
+}
+
+@media screen and (max-width:768px){
+    .footer__list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
