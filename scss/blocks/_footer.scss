@@ -68,9 +68,6 @@
         letter-spacing: 0.2px
 	}
 
-	&__icons-list {
-	}
-
 	&__icons-item:not(:last-child){
         margin-right: 20px;
 	}
@@ -107,5 +104,21 @@
     .footer{
         padding-left: 30px;
         padding-right: 30px;
+    }
+
+    .footer__bottom{
+        background: #252b42;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .footer__desc{
+        color: #fff !important;
+        max-width: 231px;
+        margin-bottom: 50px !important;
+    }
+
+    .footer__row{
+        flex-direction: column;
     }
 }

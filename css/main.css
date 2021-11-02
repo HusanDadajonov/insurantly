@@ -1242,6 +1242,22 @@ img {
     padding-left: 30px;
     padding-right: 30px;
   }
+  .footer__bottom {
+    background: #252b42;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .footer__desc {
+    color: #fff !important;
+    max-width: 231px;
+    margin-bottom: 50px !important;
+  }
+  .footer__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 .busines {
