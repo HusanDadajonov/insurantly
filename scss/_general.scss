@@ -22,6 +22,17 @@ body {
   background-color: #fff;
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background:rgb(65, 59, 59);
+}
+::-webkit-scrollbar-thumb {
+  background:$btn-bg;
+}
+
+
 
 img {
   max-width: 100%;

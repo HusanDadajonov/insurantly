@@ -374,6 +374,18 @@ body {
   background-color: #fff;
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #413b3b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #23a6f0;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -533,6 +545,9 @@ img {
   }
   .open-nav {
     height: 70% !important;
+  }
+  .hidden-scroll {
+    overflow: hidden;
   }
   .nav__list {
     position: absolute;
