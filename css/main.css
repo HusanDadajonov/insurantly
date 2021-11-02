@@ -792,6 +792,12 @@ img {
     padding-left: 30px;
     padding-right: 30px;
   }
+  .industry__title {
+    display: none;
+  }
+  .industry__title--blocked {
+    display: block !important;
+  }
 }
 
 .user__title {
@@ -1213,6 +1219,7 @@ img {
 }
 
 .footer__icons-link {
+  text-decoration: none;
   color: #23a6f0;
   font-size: 25px;
 }
@@ -1257,6 +1264,22 @@ img {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .bxl-instagram {
+    color: #e61f5a;
+  }
+  .bxl-youtube {
+    color: #e42f08;
+  }
+  .footer__icons-item--blocked {
+    display: block !important;
+  }
+  .bxl-facebook-circle {
+    display: none;
+  }
+  .bxl-facebook-square {
+    display: block;
+    color: #335bf5;
   }
 }
 

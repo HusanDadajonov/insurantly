@@ -73,6 +73,7 @@
 	}
 
 	&__icons-link {
+        text-decoration: none;
         color: $btn-bg;
         font-size: 25px;
 	}
@@ -120,5 +121,26 @@
 
     .footer__row{
         flex-direction: column;
+    }
+
+    .bxl-instagram{
+        color: #e61f5a;
+    }
+
+    .bxl-youtube{
+        color: #e42f08;
+    }
+
+    .footer__icons-item--blocked {
+        display: block !important;
+    }
+    
+    .bxl-facebook-circle{
+        display: none;
+    }
+
+    .bxl-facebook-square{
+        display:block;
+        color: #335bf5;
     }
 }

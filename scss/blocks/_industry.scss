@@ -63,4 +63,14 @@
         padding-left: 30px;
         padding-right: 30px;
     }
+
+    .industry__title{
+        display:none;
+    }
+
+    .industry__title--blocked{
+        display: block !important;
+    }
+
+    
 }
