@@ -1,9 +1,4 @@
-let elBurgerBtn = document.querySelector(".header__burger");
-let elNav = document.querySelector(".nav");
 
-elBurgerBtn.addEventListener("click",function () {
-    elNav.classList.toggle("open-nav")
-})
 
 // Example starter JavaScript for disabling form submissions if there are invalid fields
 (function () {
@@ -25,24 +20,10 @@ elBurgerBtn.addEventListener("click",function () {
         }, false)
       })
   })()
+  
+let elBurgerBtn = document.querySelector(".header__burger");
+let elNav = document.querySelector(".nav");
 
-
-  (function () {
-  'use strict'
-
-  // Fetch all the forms we want to apply custom Bootstrap validation styles to
-  var forms = document.querySelectorAll('.needs-validation')
-
-  // Loop over them and prevent submission
-  Array.prototype.slice.call(forms)
-    .forEach(function (form) {
-      form.addEventListener('submit', function (event) {
-        if (!form.checkValidity()) {
-          event.preventDefault()
-          event.stopPropagation()
-        }
-
-        form.classList.add('was-validated')
-      }, false)
-    })
-})()
+elBurgerBtn.addEventListener("click",function () {
+    elNav.classList.toggle("open-nav")
+})
