@@ -1228,11 +1228,6 @@ img {
   .footer__list {
     margin-bottom: 30px;
   }
-  .footer__row {
-    -webkit-box-pack: stretch !important;
-        -ms-flex-pack: stretch !important;
-            justify-content: stretch !important;
-  }
 }
 
 @media screen and (max-width: 768px) {
@@ -1264,12 +1259,16 @@ img {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: start !important;
+        -ms-flex-align: start !important;
+            align-items: flex-start !important;
   }
   .bxl-instagram {
     color: #e61f5a;
   }
   .bxl-youtube {
     color: #e42f08;
+    font-size: 25px;
   }
   .footer__icons-item--blocked {
     display: block !important;
@@ -1280,6 +1279,7 @@ img {
   .bxl-facebook-square {
     display: block;
     color: #335bf5;
+    font-size: 25px;
   }
 }
 
