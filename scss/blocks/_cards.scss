@@ -13,13 +13,31 @@
         border-radius: 0;
         margin-bottom: 30px;
 
+
+        
     }
+
+    &__item:nth-child(1) .cards__box{
+        background-image: url("../../img/archa.jpg");
+    }
+
+    &__item:nth-child(2) .cards__box{
+        background-image: url("../../img/industry-img2.jpg");
+    }
+
+    &__item:nth-child(3) .cards__box{
+        background-image: url("../../img/industry-img3.jpg");
+    }
+
+    &__item:nth-child(4) .cards__box{
+        background-image: url("../../img/industry-img4.jpg");
+    }
+
 
     &__box {
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        background-image: url("../../img/archa.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;

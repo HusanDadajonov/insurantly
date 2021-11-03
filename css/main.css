@@ -844,6 +844,22 @@ img {
   margin-bottom: 30px;
 }
 
+.cards__item:nth-child(1) .cards__box {
+  background-image: url("../../img/archa.jpg");
+}
+
+.cards__item:nth-child(2) .cards__box {
+  background-image: url("../../img/industry-img2.jpg");
+}
+
+.cards__item:nth-child(3) .cards__box {
+  background-image: url("../../img/industry-img3.jpg");
+}
+
+.cards__item:nth-child(4) .cards__box {
+  background-image: url("../../img/industry-img4.jpg");
+}
+
 .cards__box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -855,7 +871,6 @@ img {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  background-image: url("../../img/archa.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
